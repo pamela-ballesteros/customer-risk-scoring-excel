@@ -1,23 +1,23 @@
- ##Customer Risk Scoring Using Transaction Behavior (Excel-Based Analytics)
- ##Executive Summary
+## Customer Risk Scoring Using Transaction Behavior (Excel-Based Analytics)
+## Executive Summary
 
 This project demonstrates how simple transaction behavior indicators can be combined into a transparent risk scoring framework to support customer prioritization for compliance reviews. Using Excel and Python, I developed a weighted risk score based on transaction frequency, average transaction value, and jurisdiction exposure. The results show how a risk-based approach can help focus compliance resources on higher-risk customers while reducing unnecessary reviews.
 
- ##1. Business Context
+## 1. Business Context
 
 Financial institutions must balance regulatory obligations with operational efficiency. Traditional rule-based monitoring often generates excessive alerts, many of which represent low-risk customers. This creates review backlogs and strains compliance teams.
 
 A risk-based prioritization model helps ensure that investigative effort is focused where it matters most.
 
- ##2. Business Question
+## 2. Business Question
 
 Which customers should be prioritized for compliance review based on observable transaction behavior and jurisdiction exposure?
 
- ##3. Data Description
+## 3. Data Description
 
 This analysis uses a simulated customer-level dataset designed to reflect realistic AML monitoring scenarios while avoiding confidentiality and privacy concerns.
 
- ##Key Variables
+## Key Variables
 
 customer_id – Unique customer identifier
 
@@ -37,7 +37,7 @@ risk_score – Weighted risk score
 
 Simulated data allows the focus to remain on analytical logic, explainability, and decision-making rather than proprietary information.
 
- ##4. Methodology
+## 4. Methodology
 
 Created a simulated dataset representing customer transaction behavior
 
@@ -57,7 +57,7 @@ Risk Score = (0.4 × Transaction Frequency)
 
  ##Weights were selected to emphasize behavioral risk, while still accounting for jurisdiction exposure.
 
- ##5. Key Findings
+## 5. Key Findings
 
 Customers with higher transaction frequency and larger average transaction values consistently received higher risk scores.
 
@@ -65,11 +65,11 @@ Exposure to high-risk jurisdictions increased risk, but behavioral indicators ha
 
 Several customers with jurisdiction exposure alone remained low-risk due to minimal transaction activity, supporting a balanced, risk-based approach.
 
- ##6. Business Interpretation
+## 6. Business Interpretation
 
 The results demonstrate that not all customers linked to higher-risk jurisdictions require immediate review. Instead, combining behavioral indicators with jurisdiction exposure enables compliance teams to better differentiate between high-priority and low-priority cases, improving efficiency without compromising regulatory expectations.
 
- ##7. Recommendations
+## 7. Recommendations
 
 Use a transparent, weighted risk scoring approach to prioritize customer reviews.
 
@@ -77,15 +77,15 @@ Focus investigative resources on customers with elevated behavioral risk rather 
 
 Regularly review and adjust weights as transaction patterns or regulatory guidance evolve.
 
- ##8. Limitations & Next Steps
+## 8. Limitations & Next Steps
 
- ##Limitations
+## Limitations
 
 Data is simulated and simplified for demonstration purposes.
 
 The model does not include transaction sequencing or network relationships.
 
- ##Next Steps
+## Next Steps
 
 Introduce risk buckets (Low / Medium / High) to support operational workflows.
 
@@ -98,7 +98,7 @@ Compare rule-based scoring with basic statistical or machine learning models.
  ├── customer_risk_scoring.xlsx
  ├── README.md
 
- ##Why This Project Matters
+## Why This Project Matters
 
 This project highlights the ability to:
 
