@@ -79,13 +79,13 @@ Regularly review and adjust weights as transaction patterns or regulatory guidan
 
 ##8. Limitations & Next Steps
 
-Limitations
+##Limitations
 
 Data is simulated and simplified for demonstration purposes.
 
 The model does not include transaction sequencing or network relationships.
 
-Next Steps
+##Next Steps
 
 Introduce risk buckets (Low / Medium / High) to support operational workflows.
 
@@ -106,5 +106,7 @@ Translate compliance needs into analytical logic
 
 Build explainable, business-friendly models
 
-Communicate insights clearly to non-technical stakeholders[Customer Risk Scoring.xlsx](https://github.com/user-attachments/files/24259106/Customer.Risk.Scoring.xlsx)
+Communicate insights clearly to non-technical stakeholders
+
+[Customer Risk Scoring.xlsx](https://github.com/user-attachments/files/24259106/Customer.Risk.Scoring.xlsx)
 
