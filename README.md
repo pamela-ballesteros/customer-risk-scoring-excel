@@ -93,7 +93,7 @@ Replicate the logic in Python or SQL for scalability.
 
 Compare rule-based scoring with basic statistical or machine learning models.
 
-9. Repository Contents
+## 9. Repository Contents
 📁 customer-risk-scoring-excel
  ├── customer_risk_scoring.xlsx
  ├── README.md
