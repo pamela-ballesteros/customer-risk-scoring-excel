@@ -15,7 +15,7 @@ Which customers should be prioritized for compliance review based on observable 
 
 ## 3. Data Description
 
-This analysis uses a simulated customer-level dataset designed to reflect realistic AML monitoring scenarios while avoiding confidentiality and privacy concerns.
+This analysis uses a simulated customer-level dataset designed to reflect realistic AML monitoring scenarios while avoiding confidentiality and privacy concerns. The dataset was intentionally kept small to ensure transparency and interpretability of the scoring logic.
 
 ## Key Variables
 
@@ -39,31 +39,34 @@ Simulated data allows the focus to remain on analytical logic, explainability, a
 
 ## 4. Methodology
 
-Created a simulated dataset representing customer transaction behavior
+The analysis followed a structured, rule-based approach:
 
-Normalized transaction frequency and transaction value to a 0–1 scale
+- **Created a simulated dataset representing customer transaction behavior
 
-Designed a transparent, rule-based risk score using weighted indicators
+- **Normalized transaction frequency and transaction value to a 0–1 scale
 
-Ranked customers based on overall risk score
+- **Designed a weighted risk score to combine behavioral and jurisdiction indicators
 
-Interpreted results to support compliance prioritization decisions
+- **Ranked customers based on overall risk score
+
+- **Interpreted results to support compliance prioritization decisions
 
 **Risk Score Formula**
+
 **Risk Score** = (0.4 × Transaction Frequency) 
-           + (0.4 × Transaction Amount) 
-           + (0.2 × High-Risk Jurisdiction Indicator)
+          **+ (0.4 × Transaction Amount)**
+          **+ (0.2 × High-Risk Jurisdiction Indicator)**
 
 
-## Weights were selected to emphasize behavioral risk, while still accounting for jurisdiction exposure.
+The weights were selected to emphasize behavioral risk, while still accounting for jurisdiction exposure.
 
 ## 5. Key Findings
 
-Customers with higher transaction frequency and larger average transaction values consistently received higher risk scores.
+- **Customers with higher transaction frequency and larger average transaction values consistently received higher risk scores.
 
-Exposure to high-risk jurisdictions increased risk, but behavioral indicators had a stronger influence on overall prioritization.
+- **Exposure to high-risk jurisdictions increased risk, but behavioral indicators had a stronger influence on overall prioritization.
 
-Several customers with jurisdiction exposure alone remained low-risk due to minimal transaction activity, supporting a balanced, risk-based approach.
+- **Several customers with jurisdiction exposure alone remained low-risk due to minimal transaction activity, supporting a balanced, risk-based approach.
 
 ## 6. Business Interpretation
 
@@ -71,11 +74,11 @@ The results demonstrate that not all customers linked to higher-risk jurisdictio
 
 ## 7. Recommendations
 
-Use a transparent, weighted risk scoring approach to prioritize customer reviews.
+- **Apply a transparent, weighted risk scoring approach to prioritize customer reviews.
 
-Focus investigative resources on customers with elevated behavioral risk rather than jurisdiction alone.
+- **Focus investigative resources on customers with elevated behavioral risk rather than jurisdiction alone.
 
-Regularly review and adjust weights as transaction patterns or regulatory guidance evolve.
+- **Regularly review and adjust weights as transaction patterns or regulatory guidance evolve.
 
 ## 8. Limitations & Next Steps
 
