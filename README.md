@@ -19,21 +19,21 @@ This analysis uses a simulated customer-level dataset designed to reflect realis
 
 ## Key Variables
 
-customer_id – Unique customer identifier
+- **customer_id** – Unique customer identifier
 
-txn_count – Number of transactions over a 30-day period
+- **txn_count** – Number of transactions over a 30-day period
 
-avg_txn_amount – Average transaction value
+- **avg_txn_amount** – Average transaction value
 
-high_risk_country – Indicator of exposure to higher-risk jurisdictions (1 = Yes, 0 = No)
+- **high_risk_country** – Indicator of exposure to higher-risk jurisdictions (1 = Yes, 0 = No)
 
-flagged – Simulated indicator of whether the customer was reviewed
+- **flagged** – Simulated indicator of whether the customer was reviewed
 
-txn_norm – Normalized transaction frequency
+- **txn_norm** – Normalized transaction frequency
 
-amt_norm – Normalized transaction value
+- **amt_norm** – Normalized transaction value
 
-risk_score – Weighted risk score
+- **risk_score** – Weighted risk score
 
 Simulated data allows the focus to remain on analytical logic, explainability, and decision-making rather than proprietary information.
 
@@ -49,8 +49,8 @@ Ranked customers based on overall risk score
 
 Interpreted results to support compliance prioritization decisions
 
-Risk Score Formula
-Risk Score = (0.4 × Transaction Frequency) 
+**Risk Score Formula**
+**Risk Score** = (0.4 × Transaction Frequency) 
            + (0.4 × Transaction Amount) 
            + (0.2 × High-Risk Jurisdiction Indicator)
 
