@@ -1,7 +1,7 @@
-## Customer Risk Scoring Using Transaction Behavior (Excel-Based Analytics)
+## Customer Risk Scoring Using Transaction Behavior 
 ## Executive Summary
 
-This project demonstrates how simple transaction behavior indicators can be combined into a transparent risk scoring framework to support customer prioritization for compliance reviews. Using Excel and Python, I developed a weighted risk score based on transaction frequency, average transaction value, and jurisdiction exposure. The results show how a risk-based approach can help focus compliance resources on higher-risk customers while reducing unnecessary reviews.
+This project explore how simple transaction behavior indicators can be combined into a clear and explainable risk scoring framework to support customer prioritization for compliance reviews. Using Excel and Python, I developed a weighted risk score based on transaction frequency, average transaction value, and jurisdiction exposure. The results show how a risk-based approach can help focus compliance resources on higher-risk customers while reducing unnecessary reviews.
 
 ## 1. Business Context
 
