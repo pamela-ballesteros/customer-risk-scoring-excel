@@ -55,7 +55,7 @@ Risk Score = (0.4 × Transaction Frequency)
            + (0.2 × High-Risk Jurisdiction Indicator)
 
 
- ##Weights were selected to emphasize behavioral risk, while still accounting for jurisdiction exposure.
+## Weights were selected to emphasize behavioral risk, while still accounting for jurisdiction exposure.
 
 ## 5. Key Findings
 
