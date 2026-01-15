@@ -1,7 +1,7 @@
 import pandas as pd
 
 # -----------------------------
-# 1) Load data
+# Data loaded
 # -----------------------------
 FILE_PATH = "customer_risk_scoring.xlsx"
 SHEET_NAME = "customer_data"
@@ -9,7 +9,7 @@ SHEET_NAME = "customer_data"
 df = pd.read_excel(FILE_PATH, sheet_name=SHEET_NAME)
 
 # -----------------------------
-# 2) Parameters (edit anytime)
+# 2) Parameters (can be adjusted)
 # -----------------------------
 w_txn = 0.4
 w_amt = 0.4
@@ -67,3 +67,4 @@ print(df[["customer_id", "risk_score", "recommended_action"]].head(10).to_string
 # -----------------------------
 df.to_csv("risk_scoring_output.csv", index=False)
 print("\nSaved: risk_scoring_output.csv")
+
